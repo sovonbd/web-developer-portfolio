@@ -227,20 +227,53 @@ main section {
     font-weight: 400;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin: 50px 0px 110px 0px;
 }
 
 /* footer section styles */
 
-footer{
+footer {
     display: flex;
-    justify-content: space-around;
+    gap: 100px;
     background: #FFF8F3;
-    padding: 130px 230px;
+    padding: 130px 380px;
 }
 
-.footer-col{
+.footer-col {
+    width: 50%;
+}
+
+.footer-col>h3 {
     text-align: left;
+}
+
+.social-links {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.footer-item-desc {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-links>a {
+    text-decoration: none;
 }
