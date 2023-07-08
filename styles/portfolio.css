@@ -17,11 +17,16 @@ body {
     padding: 18px 35px;
 }
 
+/* header related style */
+.header{
+    background-color: #FFF8F3;;
+}
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -43,4 +48,15 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-pic{
+    width: 500px;
 }
