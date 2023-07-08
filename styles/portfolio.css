@@ -34,7 +34,8 @@ body {
 /* header related style */
 .header {
     background-color: #FFF8F3;
-    ;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
 }
 
 /* nav related styles */
@@ -71,7 +72,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'); 
     background-repeat: no-repeat;
     background-position: bottom right;
 
@@ -86,7 +87,6 @@ nav a {
     font-size: 45px;
     font-weight: 600px;
     margin-bottom: 5px;
-
 }
 
 .banner-titile {
@@ -107,6 +107,10 @@ nav a {
 .banner-pic {
     width: 500px;
     padding-right: 70px;
+}
+
+.btn{
+    margin-right: 10px;
 }
 
 /* main section styles */
