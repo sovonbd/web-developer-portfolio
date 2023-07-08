@@ -229,5 +229,18 @@ main section {
 
 .download-cv{
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0px 110px 0px;
+}
+
+/* footer section styles */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-col{
+    text-align: left;
 }
